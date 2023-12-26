@@ -84,3 +84,18 @@ export const slideIn = (
     },
   },
 });
+
+export const staggerContainer = (
+  staggerChildren: any,
+  delayChildren: number = 0,
+) => {
+  return {
+    hidden: {},
+    show: {
+      transition: {
+        staggerChildren,
+        delayChildren,
+      },
+    },
+  };
+};
