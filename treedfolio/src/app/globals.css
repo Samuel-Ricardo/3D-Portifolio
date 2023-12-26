@@ -57,3 +57,12 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.green-text-gradient {
+  background: #11998e;
+  background: -webkit-linear-gradient(to top, #11998e, #38ef7d);
+  background: linear-gradient(to top, #11998e, #38ef7d);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
