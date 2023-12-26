@@ -16,6 +16,9 @@ const config: Config = {
         "black-200": "#090325",
         "white-100": "#F3F3F3",
       },
+      boxShadow: {
+        card: "0px 35px 120px -15px #211E35",
+      },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
