@@ -61,3 +61,26 @@ export const zoomIn = (delay: number, duration: number) => {
     },
   };
 };
+
+export const slideIn = (
+  direction: "up" | "down" | "left" | "right",
+  type: string,
+  delay: number,
+  duration: number,
+) => ({
+  hidden: {
+    x: direction === "left" ? "-100%" : direction === "right" ? "100%" : 0,
+    y: direction === "up" ? "-100%" : direction === "down" ? "100%" : 0,
+  },
+  show: {
+    x: 0,
+    y: 0,
+
+    transition: {
+      ease: "easeOut",
+      type,
+      delay,
+      duration,
+    },
+  },
+});
