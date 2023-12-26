@@ -1,12 +1,14 @@
 import css from "styled-jsx/css";
 import {
   backend,
+  carrent,
   creator,
   docker,
   figma,
   git,
   html,
   javascript,
+  jobit,
   meta,
   mobile,
   mongodb,
@@ -18,6 +20,7 @@ import {
   tailwind,
   tesla,
   threejs,
+  tripguide,
   typescript,
   web,
 } from "../assets";
@@ -258,3 +261,5 @@ const projects = [
     source_code_link: "https://github.com/",
   },
 ];
+
+export { services, technologies, experiences, testimonials, projects };
