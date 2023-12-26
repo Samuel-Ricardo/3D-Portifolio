@@ -1,3 +1,5 @@
+import { backend, creator, mobile, web } from "../assets";
+
 export const navLinks = [
   {
     id: "about",
