@@ -48,3 +48,12 @@
   background: -webkit-linear-gradient(-90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
   background: linear-gradient(90.13deg, #00cea8 1.9%, #bf61ff 97.5%);
 }
+
+.orange-text-gradient {
+  background: #f12711;
+  background: -webkit-linear-gradient(to top, #f12711, #f5af19);
+  background: linear-gradient(to top, #f12711, #f5af19);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
