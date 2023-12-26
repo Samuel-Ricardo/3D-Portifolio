@@ -75,3 +75,12 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.pink-text-gradient {
+  background: #ec008c;
+  background: -webkit-linear-gradient(to top, #ec008c, #fc6767);
+  background: linear-gradient(to top, #ec008c, #fc6767);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
