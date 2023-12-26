@@ -66,3 +66,12 @@
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.blue-text-gradient {
+  background: #56ccf2;
+  background: -webkit-linear-gradient(to top, #2f80ed, #56ccf2);
+  background: linear-gradient(to top, #2f80ed, #56ccf2);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
