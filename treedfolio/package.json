@@ -21,7 +21,8 @@
     "maath": "^0.10.7",
     "next": "14.0.4",
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "three": "^0.160.0"
   },
   "devDependencies": {
     "@types/node": "^20",
