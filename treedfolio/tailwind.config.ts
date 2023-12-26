@@ -19,6 +19,9 @@ const config: Config = {
       boxShadow: {
         card: "0px 35px 120px -15px #211E35",
       },
+      screens: {
+        xs: "450px",
+      },
       backgroundImage: {
         "hero-pattern": "url('/src/assets/herobg.png')",
       },
