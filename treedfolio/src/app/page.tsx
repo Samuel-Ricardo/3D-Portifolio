@@ -29,7 +29,7 @@ export default function Home() {
 
             <div>
               <h1 className={`${styles.hero.head.text} text-white`}>
-                Hi, I&#39;m <span className="text-[#915EFF]">Adrian</span>
+                Hi, I&#39;m <span className="text-[#915EFF]">Samuel</span>
               </h1>
 
               <p className={`${styles.hero.sub.text} mt-2 text-white-100`}>
