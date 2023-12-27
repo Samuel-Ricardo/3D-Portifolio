@@ -1,4 +1,4 @@
-import css from "styled-jsx/css";
+//import css from "styled-jsx/css";
 import {
   backend,
   carrent,
@@ -23,6 +23,7 @@ import {
   tripguide,
   typescript,
   web,
+  css,
 } from "../assets";
 
 export const navLinks = [
