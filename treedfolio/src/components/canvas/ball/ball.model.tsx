@@ -3,7 +3,7 @@
 import { Decal, Float, useTexture } from "@react-three/drei";
 
 export const BallModel = (props: any) => {
-  const [decal] = useTexture([props.imgUrl]);
+  const [decal] = useTexture([props.imgUrl.src]);
 
   return (
     <Float speed={1.75} rotationIntensity={1} floatIntensity={2}>
