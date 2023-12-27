@@ -1,5 +1,6 @@
 import { fadeIn } from "@/utils/motion";
 import { MotionDiv } from "../motion/div.component";
+import Image from "next/image";
 
 interface IProps {
   index: number;
@@ -37,6 +38,14 @@ export const FeedbackCard = ({
             {designation} of {company}
           </p>
         </div>
+
+        <Image
+          src={image}
+          alt={`Feedback by ${name}`}
+          width={250}
+          height={250}
+          className="w-10 h-10 rounded-full object-cover"
+        />
       </div>
     </div>
   </MotionDiv>
