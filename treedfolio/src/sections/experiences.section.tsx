@@ -1,6 +1,7 @@
+"use client";
 import "react-vertical-timeline-component/style.min.css";
 
-import { VerticalTimeLine } from "react-vertical-timeline-component";
+import { VerticalTimeline } from "react-vertical-timeline-component";
 
 import { styles } from "@/app/styles";
 import { MotionSection } from "@/components/motion/section.component";
@@ -22,14 +23,14 @@ export const Experience = SectionWrapper(
       </MotionSection>
 
       <div className="mt-20 flex flex-col">
-        <VerticalTimeLine>
+        <VerticalTimeline>
           {experiences.map((experience) => (
             <ExperienceCard
               key={experience.title + experience.date}
               experience={experience}
             />
           ))}
-        </VerticalTimeLine>
+        </VerticalTimeline>
       </div>
     </>
   ),
