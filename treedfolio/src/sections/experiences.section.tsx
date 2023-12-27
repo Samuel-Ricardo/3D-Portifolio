@@ -13,7 +13,12 @@ import { ExperienceCard } from "@/components/card/experience.component";
 export const Experience = SectionWrapper(
   () => (
     <>
-      <MotionSection variants={textVariant()}>
+      <MotionSection
+        variants={textVariant()}
+        initial="hidden"
+        whileInView="show"
+        className="mt-20"
+      >
         <p className={`${styles.section.sub.text} text-center`}>
           What I Have done so far
         </p>
@@ -23,7 +28,7 @@ export const Experience = SectionWrapper(
       </MotionSection>
 
       <div className="mt-20 flex flex-col">
-        <VerticalTimeline>
+        <VerticalTimeline animate>
           {experiences.map((experience) => (
             <ExperienceCard
               key={experience.title + experience.date}

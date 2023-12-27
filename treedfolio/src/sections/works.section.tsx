@@ -9,7 +9,7 @@ import { fadeIn, textVariant } from "@/utils/motion";
 export const Works = SectionWrapper(
   () => (
     <>
-      <MotionDiv variants={textVariant()}>
+      <MotionDiv variants={textVariant()} initial="hidden" whileInView="show">
         <p className={`${styles.section.sub.text}`}>My Works</p>
         <h2 className={`${styles.section.head.text}`}>Projects</h2>
       </MotionDiv>
@@ -17,6 +17,8 @@ export const Works = SectionWrapper(
       <div className="w-full flex">
         <MotionP
           variants={fadeIn("none", "", 0.1, 1)}
+          initial="hidden"
+          whileInView="show"
           className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
         >
           Following projects showcases my skills and experience through
@@ -27,7 +29,7 @@ export const Works = SectionWrapper(
         </MotionP>
       </div>
 
-      <div>
+      <div className="mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={project.name} index={index} {...project} />
         ))}

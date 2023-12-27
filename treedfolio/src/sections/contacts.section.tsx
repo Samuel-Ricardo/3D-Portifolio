@@ -57,11 +57,13 @@ export const Contacts = SectionWrapper(() => {
 
   return (
     <div
-      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}
+      className={`xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden justify-center items-center`}
     >
       <MotionDiv
         variants={slideIn("left", "tween", 0.2, 1)}
-        className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
+        className="flex-1 bg-black-100 p-8 rounded-2xl"
+        initial="hidden"
+        whileInView="show"
       >
         <p className={styles.section.sub.text}>Get in touch</p>
         <h3 className={styles.section.head.text}>Contact</h3>
@@ -69,7 +71,7 @@ export const Contacts = SectionWrapper(() => {
         <form
           ref={formRef}
           onSubmit={handleSubmit}
-          className="mt-12 flex flex-col gap-8"
+          className="mt-12 flex flex-col gap-10 p-24 rounded-2xl"
         >
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
@@ -115,7 +117,9 @@ export const Contacts = SectionWrapper(() => {
       </MotionDiv>
       <MotionDiv
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-autoo md:h-[550px] h-[350px]"
+        initial="hidden"
+        whileInView="show"
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
         <Earth />
       </MotionDiv>

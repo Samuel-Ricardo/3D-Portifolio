@@ -11,12 +11,12 @@ export const Feedbacks = SectionWrapper(
       <div
         className={`bg-tertiary rounded-2xl ${styles.padding} min-h-[300px]`}
       >
-        <MotionDiv variants={textVariant()}>
+        <MotionDiv variants={textVariant()} initial="hidden" whileInView="show">
           <p className={styles.section.sub.text}>What others say</p>
           <h2 className={styles.section.head.text}>Testimonials</h2>
         </MotionDiv>
       </div>
-      <div className={`-mt-20 pb-14 ${styles.paddingX} flex flex-wrap gap-7`}>
+      <div className={` mt-16 ${styles.paddingX} flex flex-wrap gap-7`}>
         {testimonials.map((testimonial, index) => (
           <FeedbackCard key={testimonial.name} index={index} {...testimonial} />
         ))}

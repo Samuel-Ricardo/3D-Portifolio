@@ -42,10 +42,10 @@ export default function Home() {
           <Computer />
 
           <div className="absolute xs:bottom-32 bottom-32 w-full flex justify-center items-center">
-            <Link href="#about">
+            <Link scroll href="#about">
               <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-center p-2">
                 <MotionDiv
-                  animate={{ y: [0, 24, 0] }}
+                  animate={{ y: [20, -16, 20] }}
                   transition={{
                     duration: 1.5,
                     repeat: Infinity,

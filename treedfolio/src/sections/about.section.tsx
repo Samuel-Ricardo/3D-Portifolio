@@ -6,13 +6,13 @@ import { services } from "@/utils/constants";
 import { textVariant } from "@/utils/motion";
 
 export const About = () => (
-  <>
-    <MotionDiv variants={textVariant()}>
+  <div className="px-20">
+    <MotionDiv variants={textVariant()} initial="hidden" whileInView="show">
       <p className={styles.section.sub.text}>Introduction</p>
       <h2 className={styles.section.head.text}>Overview</h2>
     </MotionDiv>
 
-    <MotionP>
+    <MotionP variants={textVariant()} initial="hidden" whileInView="show">
       I &apos; m a skilled software developer with experience in TypeScript and
       JavaScript, and expertise in frameworks like React, Node.js, and Three.js.
       I &lsquo; m a quick learner and collaborate closely with clients to create
@@ -20,10 +20,10 @@ export const About = () => (
       problems. Let &#39; s work together to bring your ideas to life!{" "}
     </MotionP>
 
-    <div className="mt-20 flex flex-wrap gap-10">
+    <div className="mt-20 flex flex-wrap gap-10 justify-center items-center">
       {services.map((service, index) => (
         <ServiceCard key={service.title} index={index} {...service} />
       ))}
     </div>
-  </>
+  </div>
 );
