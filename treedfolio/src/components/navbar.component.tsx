@@ -2,6 +2,7 @@
 
 import { styles } from "@/app/styles";
 import { logo } from "@/assets";
+import { navLinks } from "@/utils/constants";
 import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -44,6 +45,20 @@ export const NavBar = () => {
             <span className="sm:block hidden"> | JavaScript Mastery</span>
           </p>
         </Link>
+
+        <ul className="list-none hidden sm:flex flex-row gap-10">
+          {navLinks.map((link) => (
+            <li
+              key={link.id}
+              className={`${
+                active === link.title ? "text-white" : "text-secondary"
+              } hover:text-white text-[18px] font-medium cursor-pointer`}
+              onClick={() => setActive(link.title)}
+            >
+              <Link href={`#${link.id}`}>{link.title}</Link>
+            </li>
+          ))}
+        </ul>
       </div>
     </nav>
   );
