@@ -1,3 +1,5 @@
+"use client";
+
 import { CanvasLoader } from "@/components/loader.component";
 import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
