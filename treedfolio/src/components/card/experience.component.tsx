@@ -1,9 +1,6 @@
 import "react-vertical-timeline-component/style.min.css";
 
-import {
-  VerticalTimeline,
-  VerticalTimelineElement,
-} from "react-vertical-timeline-component";
+import { VerticalTimelineElement } from "react-vertical-timeline-component";
 import { experiences } from "@/utils/constants";
 import Image from "next/image";
 
