@@ -1,3 +1,5 @@
+"use client";
+
 import { Tilt } from "react-tilt";
 import { MotionDiv } from "../motion/div.component";
 import { fadeIn } from "@/utils/motion";
