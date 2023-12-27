@@ -2,8 +2,8 @@ import { staggerContainer } from "@/utils/motion";
 import { MotionSection } from "../motion/section.component";
 import { styles } from "@/app/styles";
 
-export const StartWrapper = (Component: any, id: string) =>
-  function SectionWrapper() {
+export const SectionWrapper = (Component: any, id: string) =>
+  function Wrapper() {
     return (
       <MotionSection
         variants={staggerContainer()}
