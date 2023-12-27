@@ -1,7 +1,8 @@
-import { OrbitControls } from "@react-three/drei";
+import { OrbitControls, Preload } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import { Suspense } from "react";
 import { EarthModel } from "./model.component";
+import { CanvasLoader } from "@/components/loader.component";
 
 export const Earth = () => (
   <Canvas
@@ -16,7 +17,7 @@ export const Earth = () => (
       position: [-4, 3, 6],
     }}
   >
-    <Suspense>
+    <Suspense fallback={<CanvasLoader />}>
       <OrbitControls
         autoRotate
         enableZoom={false}
@@ -24,6 +25,7 @@ export const Earth = () => (
         minPolarAngle={Math.PI / 2}
       />
       <EarthModel />
+      <Preload all />
     </Suspense>
   </Canvas>
 );
