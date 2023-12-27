@@ -1,3 +1,5 @@
+"use client";
+
 import { Decal, Float, useTexture } from "@react-three/drei";
 
 export const BallModel = (props: any) => {
