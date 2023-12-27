@@ -1,4 +1,4 @@
-import { Stars } from "@/components/canvas/stars.component";
+import { Stars } from "@/components/canvas/stars/render.component";
 import { NavBar } from "@/components/navbar.component";
 import { About } from "@/sections/about.section";
 import { Contacts } from "@/sections/contacts.section";
