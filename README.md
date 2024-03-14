@@ -94,3 +94,44 @@ For this, i build a Dev Portfolio website, that you can use as a template, becau
 <h2 id="app">
   💻 | Application:
 </h2>
+
+<p align="justify">
+This Portfolio show the highlights of a developer, social media, and some projects with a call to action in the end of the page. Parallax, drawn, fade in, are some of animations here. This project have a module system with email sending, form validations and more.
+</p>
+
+<br>
+
+<video width="100%" controls>
+  <source src="./readme_assets/demo.mp4" type="video/mp4">
+</video>
+
+<br>
+<br>
+
+<p align="justify">
+*Remember this software runs on free machines, that is, with the minimum of resources to fit into free plans, so with scarce resources in the production environment these were the results I obtained
+</p>
+
+<br/>
+
+ <img width="auto" src="https://media.discordapp.net/attachments/852529276083503134/1189694407486754827/image.png?ex=66049bc2&is=65f226c2&hm=808f4780f04de940267e8c9353f4c7befd799c672d22c7b57403c82c920f8e5d&=&format=webp&quality=lossless&width=1202&height=676"/>
+
+<br>
+
+  <p>
+    Loading 3D models can be difficult for the browser, but once loaded, the site runs smoothly
+  </p>
+
+<br>
+<br>
+
+📡 | Hosted on Vercel: [ https://animated-portfolio-peach.vercel.app/ ]
+
+<br>
+<br>
+
+<h2 id="run-project"> 
+   👨‍💻 | How to use
+</h2>
+
+<br>
