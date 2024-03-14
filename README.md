@@ -125,7 +125,7 @@ This Portfolio show the highlights of a developer, social media, and some projec
 <br>
 <br>
 
-📡 | Hosted on Vercel: [ https://animated-portfolio-peach.vercel.app/ ]
+📡 | Hosted on Vercel: [ https://tree-d-folio.vercel.app/ ]
 
 <br>
 <br>
