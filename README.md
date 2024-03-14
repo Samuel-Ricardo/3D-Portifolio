@@ -9,7 +9,7 @@
 <h4 align="center" >🚀 🟪 TreeDFolio 🟪 🚀</h4>
 
 <h4 align="center">
-  This application is a conclusion of my study about website perfomance, 3d Rendering and animations with NextJS
+  This application is a conclusion of my study about 3d Rendering and animations with NextJS
 </h4>
 
 #
@@ -48,3 +48,25 @@
 <br>
 
 <h2>  | :artificial_satellite: About:  </h2>
+
+<p align="justify">
+In this project, the target is to build a website that explore the real time 3D Rendering and 3D Effects using NextJS and improve all tech skills related to website animations.
+</p>
+
+<p align="justify">
+For this, i build a Dev Portfolio website, that you can use as a template, because i can apply all features and visual designs and animations that i have in mind.
+</p>
+
+<br>
+
+📡 | Hosted on Vercel: [ https://tree-d-folio.vercel.app/ ]
+
+<br>
+
+#
+
+<br>
+
+<h2 id="techs">
+  :building_construction: | Technologies and Concepts Studied:
+</h2>
