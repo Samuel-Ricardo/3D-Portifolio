@@ -70,3 +70,27 @@ For this, i build a Dev Portfolio website, that you can use as a template, becau
 <h2 id="techs">
   :building_construction: | Technologies and Concepts Studied:
 </h2>
+
+> <a href='https://nextjs.org/'> <img width="64px" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nextjs/nextjs-original.svg" /> </a>
+
+- Three
+- NextJS
+- TailwindCSS
+- Typescript
+- Docker
+- EmailJS
+- Framer Motion
+- eslint
+- Prettier
+- husky
+- lint-staged
+
+> Among Others...
+
+#
+
+<br>
+
+<h2 id="app">
+  💻 | Application:
+</h2>
